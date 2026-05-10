@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+
+body{
+font-family: Georgia;
+color:#403C36;
+}
+
+
+body{
+  background:linear-gradient(#C2B9AC,#A19281);
+}
+
+</style>
+</head>
+<body>
+
+<table>
+<tr><td colspan="100">
+
+<h1>Przyroda - roślinki i zwierzęta</h1>
+<hr color=#403C36>
+<br>
+
+W pobliżu można natrafić na przeróżne rodzaje drzew i kwiatów (krzaków itp.), które szczególnie pięknie rozkwitają 
+<br>
+w okolicach <sup>maja i czerwca.</sup> 
+<br>
+
+<video controls muted src="film.mp4" width="400"
+	<source src="film.mp4">
+	<source src="film.mp4">
+</video>
+<img src="kwaitek1.jpg" width="200" height="300" alt="">
+<img src="kwiatek2.jpg" width="200" height="300" alt="">
+
+
+<br>
+<br>
+Natomiast w trakcie zimy (dokładniej to jeżeli spadnie odpowiednia ilość śniegu) 
+<br>
+zasypana śniegiem roślinność ma swój wyjątkowy, urokliwy klimat, któremu równie przyjemie jest się przyjrzeć.
+<br>
+<br>
+<img src="zimaa.jpg" width="200" height="300" alt="">
+<img src="wiczlino%20zimaa.jpg" width="200" height="300" alt="">
+<br>
+<br>
+ Miło jest móc wyjść na dwór w celu poczytania swojej <i>ulubionej książki...</i>
+<br>
+lub nawet po to aby zrobić piknik, albo zwyczajnie zjeść śniadanie w swoim ogrodzie.  
+<br>
+<br>
+<img src="ksi%C4%85zka.jpg"  width="200" height="300" alt="">
+<br>
+<br>
+Z powodu na swoje <ins>położenie</ins> (granica Gdyni stykająca się z wsiami takimi jak Banino) oraz <ins>historię</ins>
+<br>
+ (dawniej te tereny były używane pod uprawy) nieciężko jest natrafić na kury czy gęsi spacerujące sobie po chodniku -
+ <br>
+ - jest to <b>absolutnie normalna sprawa.</b>
+<br>
+<br>
+<img src="missing%20chicken.png" width="200" height="300" alt="">
+<img src="lato.jpg" width="200" height="300" alt="">
+<br>
+<small>Niestety nie mam zdjęcia, ale proszę mi zaufać, to <ins>naprawdę</ins> tak wygląda.</small>
+<br>
+<a href="index.html">Powrotny</a>
+
+
+
+
+<td valign=top>
+<br>
+<br>
+
+<button onclick="pokaz()">
+ Kliknij mnie ;))
+</button>
+
+
+<div id="zdjęcie" style="display:none;">
+
+<img src="screen.jpg" width="400" height="400" alt="">
+<p>Za to gdy spadnie deszcz...</p>
+ 
+</div>
+
+
+
+<script>
+
+function pokaz() {
+	document.getElementById("zdjęcie").style.display="block";
+}	
+	
+	
+</script>
+
+
+<td valign=top>
+</table>
+
+</body>
+</html>
